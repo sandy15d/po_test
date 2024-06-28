@@ -1,0 +1,708 @@
+.PageBgColor {
+	BACKGROUND-COLOR: #b4c8db
+}
+.FormTitleBgColor {
+	BACKGROUND-COLOR: #126ecc
+}
+.FormTitleFontColor {
+	COLOR: #ffffff
+}
+.CaptionBgColor {
+	BACKGROUND-COLOR: #dfdfdf
+}
+.CaptionFontColor {
+	COLOR: #000000
+}
+.DataBgColor {
+	BACKGROUND-COLOR: #f7f7f7
+}
+.AltDataBgColor {
+	BACKGROUND-COLOR: #e7f0f8
+}
+.DataFontColor {
+	COLOR: #000000
+}
+.LinkColor {
+	COLOR: #0059b2
+}
+.VisitedLinkColor {
+	COLOR: #830083
+}
+.HoverLinkColor {
+	COLOR: #ff0000
+}
+BODY {
+	FONT-SIZE: 80%; COLOR: #000000; FONT-FAMILY: Arial
+}
+HTML > BODY {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial
+}
+HTML > BODY TD {
+	FONT-SIZE: 100%
+}
+HTML > BODY TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY TABLE {
+	FONT-SIZE: 100%
+}
+.text {
+	COLOR: #000000
+}
+A.menulink:link {
+	COLOR: #0059b2
+}
+A.menulink:visited {
+	COLOR: #0059b2
+}
+A.menulink:hover {
+	COLOR: #ff0000
+}
+A.menulink:active {
+	COLOR: #ff0000
+}
+A:link {
+	COLOR: #0059b2
+}
+A:visited {
+	COLOR: #830083
+}
+A:hover {
+	COLOR: #ff0000
+}
+A:active {
+	COLOR: #ff0000
+}
+UL {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 20px
+}
+OL {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 20px
+}
+BLOCKQUOTE {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 10px; MARGIN-LEFT: 20px
+}
+FORM {
+	MARGIN: 0px
+}
+H1 {
+	MARGIN-TOP: 5px; FONT-SIZE: 150%; MARGIN-BOTTOM: 5px; COLOR: #126ecc
+}
+H2 {
+	MARGIN-TOP: 15px; FONT-SIZE: 130%; MARGIN-BOTTOM: 5px; COLOR: #126ecc
+}
+H3 {
+	MARGIN-TOP: 15px; FONT-SIZE: 110%; MARGIN-BOTTOM: 5px; COLOR: #126ecc; FONT-STYLE: italic
+}
+H4 {
+	MARGIN-TOP: 15px; FONT-SIZE: 100%; MARGIN-BOTTOM: 5px; COLOR: #126ecc
+}
+H5 {
+	MARGIN-TOP: 15px; FONT-SIZE: 100%; MARGIN-BOTTOM: 5px; COLOR: #126ecc; FONT-STYLE: italic
+}
+H6 {
+	MARGIN-TOP: 15px; FONT-SIZE: 90%; MARGIN-BOTTOM: 5px; COLOR: #126ecc
+}
+TH {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+TD {
+	FONT-SIZE: 80%; FONT-FAMILY: Arial; TEXT-ALIGN: left
+}
+.Header {
+	WIDTH: 100%
+}
+.Header TH {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 110%; BACKGROUND-IMAGE: url(../images/HeaderBg.gif); PADDING-BOTTOM: 4px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+HTML > BODY .Header TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 138%; TEXT-ALIGN: left
+}
+.Header A:link {
+	COLOR: #ffffff
+}
+.Header A:visited {
+	COLOR: #ffffff
+}
+.Header A:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.Caption A:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+.HeaderLeft {
+	BACKGROUND-IMAGE: url(../images/HeaderLeft.gif)
+}
+.HeaderRight {
+	BACKGROUND-POSITION: right top; BACKGROUND-IMAGE: url(../images/HeaderRight.gif)
+}
+.HeaderLeft IMG {
+	WIDTH: 9px
+}
+.HeaderRight IMG {
+	WIDTH: 9px
+}
+.Grid {
+	BORDER-RIGHT: #126ecc 2px solid; BORDER-TOP: #126ecc 2px solid; BORDER-LEFT: #126ecc 2px solid; WIDTH: 100%; BORDER-BOTTOM: #126ecc 2px solid
+}
+.Caption TH {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+.Caption TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+HTML > BODY .Caption TH {
+	FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+HTML > BODY .Caption TD {
+	FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.Caption A:link {
+	COLOR: #000000
+}
+.Caption A:visited {
+	COLOR: #000000
+}
+.Caption A:hover {
+	COLOR: #ff0000
+}
+.Caption A:active {
+	COLOR: #ff0000
+}
+.Caption IMG {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.Caption INPUT {
+	VERTICAL-ALIGN: middle
+}
+.Row TH {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.Row TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+HTML > BODY .Row TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY .Row TD {
+	FONT-SIZE: 100%
+}
+CAPTION.Row {
+	BORDER-RIGHT: #126ecc 2px solid; PADDING-RIGHT: 4px; BORDER-TOP: #126ecc 2px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; BORDER-LEFT: #126ecc 2px solid; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #126ecc 0px solid; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+HTML > BODY CAPTION.Row {
+	FONT-SIZE: 100%
+}
+.Row A:link {
+	COLOR: #0059b2
+}
+.Row A:visited {
+	COLOR: #830083
+}
+.Row A:hover {
+	COLOR: #ff0000
+}
+.Row A:active {
+	COLOR: #ff0000
+}
+.Separator {
+	COLOR: #126ecc
+}
+.Separator TD {
+	HEIGHT: 1px
+}
+.AltRow TH {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.AltRow TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: left
+}
+HTML > BODY .AltRow TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY .AltRow TD {
+	FONT-SIZE: 100%
+}
+HTML BODY .AltRow TH {
+	FONT-SIZE: 100%
+}
+HTML BODY .AltRow TD {
+	FONT-SIZE: 100%
+}
+.AltRow A:link {
+	COLOR: #0059b2
+}
+.AltRow A:visited {
+	COLOR: #830083
+}
+.AltRow A:hover {
+	COLOR: #ff0000
+}
+.AltRow A:active {
+	COLOR: #ff0000
+}
+.NoRecords TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.Footer TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; BORDER-LEFT: #dfdfdf 0px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #dfdfdf 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+HTML > BODY .NoRecords TD {
+	FONT-SIZE: 100%
+}
+HTML > BODY .Footer TD {
+	FONT-SIZE: 100%
+}
+.Footer A:link {
+	COLOR: #0059b2
+}
+.Footer A:visited {
+	COLOR: #830083
+}
+.Footer A:hover {
+	COLOR: #ff0000
+}
+.Footer A:active {
+	COLOR: #ff0000
+}
+.Footer IMG {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.Footer INPUT {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.Record {
+	BORDER-RIGHT: #126ecc 2px solid; BORDER-TOP: #126ecc 2px solid; BORDER-LEFT: #126ecc 2px solid; WIDTH: 100%; BORDER-BOTTOM: #126ecc 2px solid
+}
+.Error TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #ff0000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+HTML > BODY .Error TD {
+	FONT-SIZE: 100%
+}
+.Controls TH {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.Controls TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.Bottom TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; BORDER-LEFT: #dfdfdf 0px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #dfdfdf 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+HTML > BODY .Controls TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY .Controls TD {
+	FONT-SIZE: 100%
+}
+HTML > BODY .Bottom TD {
+	FONT-SIZE: 100%
+}
+.Bottom A:link {
+	COLOR: #0059b2
+}
+.Bottom A:visited {
+	COLOR: #830083
+}
+.Bottom A:hover {
+	COLOR: #ff0000
+}
+.Caption A:active {
+	COLOR: #ff0000
+}
+.Bottom IMG {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.Bottom INPUT {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.GroupCaption TH {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: left
+}
+.GroupCaption TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+HTML > BODY .GroupCaption TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY .GroupCaption TD {
+	FONT-SIZE: 100%
+}
+.GroupCaption A:link {
+	COLOR: #000000
+}
+.GroupCaption A:visited {
+	COLOR: #000000
+}
+.GroupCaption A:hover {
+	COLOR: #ff0000
+}
+.GroupCaption A:active {
+	COLOR: #ff0000
+}
+.GroupFooter TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; BORDER-LEFT: #dfdfdf 0px; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #dfdfdf 1px solid; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #dfdfdf; TEXT-ALIGN: center
+}
+HTML > BODY .GroupFooter TD {
+	FONT-SIZE: 100%
+}
+.GroupFooter A:link {
+	COLOR: #0059b2
+}
+.GroupFooter A:visited {
+	COLOR: #830083
+}
+.GroupFooter A:hover {
+	COLOR: #ff0000
+}
+.GroupFooter A:active {
+	COLOR: #ff0000
+}
+.GroupFooter IMG {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.GroupFooter INPUT {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.SubTotal TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; BORDER-BOTTOM: #126ecc 2px solid; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: left
+}
+HTML > BODY .SubTotal TD {
+	FONT-SIZE: 100%
+}
+.SubTotal A:link {
+	COLOR: #0059b2
+}
+.SubTotal A:visited {
+	COLOR: #830083
+}
+.SubTotal A:hover {
+	COLOR: #ff0000
+}
+.SubTotal A:active {
+	COLOR: #ff0000
+}
+.Total TD {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: left
+}
+HTML > BODY .Total TD {
+	FONT-SIZE: 100%
+}
+.Total A:link {
+	COLOR: #0059b2
+}
+.Total A:visited {
+	COLOR: #830083
+}
+.Total A:hover {
+	COLOR: #ff0000
+}
+.Total A:active {
+	COLOR: #ff0000
+}
+.Button {
+	BORDER-RIGHT: #848284 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #ededed 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 85%; PADDING-BOTTOM: 2px; BORDER-LEFT: #ededed 1px solid; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #848284 1px solid; FONT-FAMILY: Tahoma; BACKGROUND-COLOR: #126ecc
+}
+.Calendar {
+	BORDER-RIGHT: #126ecc 2px solid; BORDER-TOP: #126ecc 2px solid; BORDER-LEFT: #126ecc 2px solid; WIDTH: 100%; BORDER-BOTTOM: #126ecc 2px solid
+}
+.CalendarWeekdayName {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarWeekdayName {
+	FONT-SIZE: 100%
+}
+.CalendarWeekdayName A:link {
+	COLOR: #0059b2
+}
+.CalendarWeekdayName A:visited {
+	COLOR: #830083
+}
+.CalendarWeekdayName A:hover {
+	COLOR: #ff0000
+}
+.CalendarWeekdayName A:active {
+	COLOR: #ff0000
+}
+.CalendarWeekendName {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarWeekendName {
+	FONT-SIZE: 100%
+}
+.CalendarWeekendName A:link {
+	COLOR: #000000
+}
+.CalendarWeekendName A:visited {
+	COLOR: #000000
+}
+.CalendarWeekendName A:link {
+	COLOR: #ff0000
+}
+.CalendarWeekendName A:visited {
+	COLOR: #ff0000
+}
+.CalendarDay {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarDay {
+	FONT-SIZE: 100%
+}
+.CalendarDay A:link {
+	COLOR: #0059b2
+}
+.CalendarDay A:visited {
+	COLOR: #830083
+}
+.CalendarDay A:hover {
+	COLOR: #ff0000
+}
+.CalendarDay A:active {
+	COLOR: #ff0000
+}
+.CalendarWeekend {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarWeekend {
+	FONT-SIZE: 100%
+}
+.CalendarWeekend A:link {
+	COLOR: #0059b2
+}
+.CalendarWeekend A:visited {
+	COLOR: #830083
+}
+.CalendarWeekend A:hover {
+	COLOR: #ff0000
+}
+.CalendarWeekend A:active {
+	COLOR: #ff0000
+}
+.CalendarToday {
+	BORDER-RIGHT: #126ecc 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #126ecc 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #126ecc 2px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #126ecc 2px solid; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarToday {
+	FONT-SIZE: 100%
+}
+.CalendarToday A:link {
+	COLOR: #0059b2
+}
+.CalendarToday A:visited {
+	COLOR: #830083
+}
+.CalendarToday A:hover {
+	COLOR: #ff0000
+}
+.CalendarToday A:active {
+	COLOR: #ff0000
+}
+.CalendarWeekendToday {
+	BORDER-RIGHT: #126ecc 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #126ecc 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #126ecc 2px solid; COLOR: #000000; PADDING-TOP: 2px; BORDER-BOTTOM: #126ecc 2px solid; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarWeekendToday {
+	FONT-SIZE: 100%
+}
+.CalendarWeekendToday A:link {
+	COLOR: #0059b2
+}
+.CalendarWeekendToday A:visited {
+	COLOR: #830083
+}
+.CalendarWeekendToday A:hover {
+	COLOR: #ff0000
+}
+.CalendarWeekendToday A:active {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthDay {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #126ecc; PADDING-TOP: 4px; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarOtherMonthDay {
+	FONT-SIZE: 100%
+}
+.CalendarOtherMonthDay A:link {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthDay A:visited {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthDay A:hover {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthDay A:active {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthToday {
+	BORDER-RIGHT: #126ecc 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #126ecc 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #126ecc 2px solid; COLOR: #126ecc; PADDING-TOP: 2px; BORDER-BOTTOM: #126ecc 2px solid; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarOtherMonthToday {
+	FONT-SIZE: 100%
+}
+.CalendarOtherMonthToday A:link {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthToday A:visited {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthToday A:hover {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthToday A:active {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthWeekend {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #126ecc; PADDING-TOP: 4px; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarOtherMonthWeekend {
+	FONT-SIZE: 100%
+}
+.CalendarOtherMonthWeekend A:link {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthWeekend A:visited {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthWeekend A:hover {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthWeekend A:active {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthWeekendToday {
+	BORDER-RIGHT: #126ecc 2px solid; PADDING-RIGHT: 2px; BORDER-TOP: #126ecc 2px solid; PADDING-LEFT: 2px; FONT-SIZE: 80%; PADDING-BOTTOM: 2px; BORDER-LEFT: #126ecc 2px solid; COLOR: #126ecc; PADDING-TOP: 2px; BORDER-BOTTOM: #126ecc 2px solid; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarOtherMonthWeekendToday {
+	FONT-SIZE: 100%
+}
+.CalendarOtherMonthWeekendToday A:link {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthWeekendToday A:visited {
+	COLOR: #126ecc
+}
+.CalendarOtherMonthWeekendToday A:hover {
+	COLOR: #ff0000
+}
+.CalendarOtherMonthWeekendToday A:active {
+	COLOR: #ff0000
+}
+.CalendarSelectedDay {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 4px; BACKGROUND-COLOR: #dfdfdf; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarSelectedDay {
+	FONT-SIZE: 100%
+}
+.CalendarSelectedDay A:link {
+	COLOR: #000000
+}
+.CalendarSelectedDay A:visited {
+	COLOR: #000000
+}
+.CalendarSelectedDay A:hover {
+	COLOR: #ff0000
+}
+.CalendarSelectedDay A:active {
+	COLOR: #ff0000
+}
+.CalendarNavigator {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: middle; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: center
+}
+HTML > BODY .CalendarNavigator {
+	FONT-SIZE: 100%
+}
+.CalendarNavigator A:link {
+	COLOR: #0059b2
+}
+.CalendarNavigator A:visited {
+	COLOR: #830083
+}
+.CalendarNavigator A:hover {
+	COLOR: #ff0000
+}
+.CalendarNavigator A:active {
+	COLOR: #ff0000
+}
+.CalendarNavigator IMG {
+	MARGIN: 2px; VERTICAL-ALIGN: middle
+}
+.CalendarNavigator TD {
+	FONT-SIZE: 80%
+}
+.CalendarNavigator TH {
+	FONT-SIZE: 80%
+}
+HTML > BODY .CalendarNavigator TH {
+	FONT-SIZE: 100%
+}
+HTML > BODY .CalendarNavigator TD {
+	FONT-SIZE: 100%
+}
+.CalendarEvent {
+	FONT-SIZE: 80%; TEXT-ALIGN: left
+}
+HTML > BODY .CalendarEvent {
+	FONT-SIZE: 100%
+}
+.CalendarEvent A:link {
+	COLOR: #0059b2
+}
+.CalendarEvent A:visited {
+	COLOR: #830083
+}
+.CalendarEvent A:hover {
+	COLOR: #ff0000
+}
+.CalendarEvent A:active {
+	COLOR: #ff0000
+}
+TABLE TR TD STRONG {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.th {
+	FONT-WEIGHT: bold; FONT-SIZE: 80%; FONT-FAMILY: Arial
+}
+HTML > BODY .th {
+	FONT-SIZE: 100%
+}
+.Header .th {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 110%; BACKGROUND-IMAGE: url(../images/HeaderBg.gif); PADDING-BOTTOM: 4px; WIDTH: 100%; COLOR: #ffffff; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+HTML > BODY .Header .th {
+	FONT-WEIGHT: bold; FONT-SIZE: 138%; TEXT-ALIGN: left
+}
+.Caption .th {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-SIZE: 80%; BACKGROUND-IMAGE: url(../images/CaptionBg.gif); PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; TEXT-ALIGN: left
+}
+HTML > BODY .Caption .th {
+	FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.Row .th {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.AltRow .th {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.Controls .th {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: normal; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #f7f7f7; TEXT-ALIGN: left
+}
+.GroupCaption .th {
+	BORDER-RIGHT: #dfdfdf 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 4px; FONT-WEIGHT: bold; FONT-SIZE: 80%; PADDING-BOTTOM: 4px; VERTICAL-ALIGN: top; COLOR: #000000; PADDING-TOP: 4px; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #e7f0f8; TEXT-ALIGN: left
+}
+HTML > BODY .GroupCaption .th {
+	FONT-SIZE: 100%
+}
+HTML > BODY .Row .th {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+HTML > BODY .AltRow .th {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+HTML > BODY .Controls .th {
+	FONT-WEIGHT: normal; FONT-SIZE: 100%; VERTICAL-ALIGN: top; TEXT-ALIGN: left
+}
+.simpleMenu TD {
+	FONT-SIZE: 80%
+}
+HTML > BODY .simpleMenu TD {
+	FONT-SIZE: 100%
+}
